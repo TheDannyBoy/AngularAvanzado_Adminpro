@@ -14,6 +14,7 @@ import { PAGES_ROUTES } from './pages.routes';
 import { FormsModule } from '@angular/forms';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        GraficoDonaComponent
+        GraficoDonaComponent,
+        AccountSettingsComponent
     ],
     exports: [
         PagesComponent,

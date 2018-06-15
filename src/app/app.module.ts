@@ -10,10 +10,13 @@ import { RegisterComponent } from './login/register.component';
 // RUTAS
 import { APP_ROUTES } from './app.routes';
 
+// SERVICIOS
+import { ServiceModule } from './services/service.module';
 
 // MODULOS
 import { PagesModule } from './pages/pages.module';
 import { FormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -26,9 +29,13 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     APP_ROUTES,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [
+  ],
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule { }

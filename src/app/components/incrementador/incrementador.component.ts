@@ -5,6 +5,7 @@ import { Component, OnInit, Input, Output, EventEmitter, ViewChild, ElementRef }
   templateUrl: './incrementador.component.html',
   styles: []
 })
+
 export class IncrementadorComponent implements OnInit {
 
   @ViewChild('txtProgress') txtProgress: ElementRef;
